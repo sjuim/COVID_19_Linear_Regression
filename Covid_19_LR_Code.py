@@ -38,7 +38,7 @@ print("The coefficient of determination, or the r squared coefficient: " + r2_sc
 #Show the training set + regression line
 plt.scatter(X_train, Y_train, color = 'red')
 plt.plot(X_train, reg.predict(X_train), color = 'blue')
-plt.title('Salary VS Experience (Training set)')
+plt.title('Covid cases over time')
 plt.xlabel('Year of Experience')
 plt.ylabel('Salary')
 plt.show()
